@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul .loan a{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+.header-breadcrumb ol li a{
+    color: red;
+}
+/* LOAN INTRODUCTION SECTION  */
+.image-div{
+    position: relative;
+}
+.shape{
+    position: absolute;
+    top: 285px;
+    right: 51px;
+}
+.finix-logo {
+    position: absolute;
+    left: 55px;
+    top: 45px;
+}
+.finix-logo h5 {
+    font-size: 18px;
+    position: absolute;
+    top: 11px;
+    left: -75px;
+    width: 200px;
+}
+.loan-introduction ul {
+    list-style: none;
+    left: -15px;
+    position: relative;
+}
+.faruk ul li::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: -27px;
+    width: 10px;
+    height: 46%;
+    background: red;
+    border-radius: 50%;
+}
+.faruk ul li {
+    position: relative;
+    left: 10px;
+}
+.aklima .resources li i{
+    position: relative;
+    list-style: none;
+}
+.aklima .resources li i::before{
+    font-weight: 900;
+    position: relative;
+    left: -14px;
+    font-size: 20px;
+    color: red;
+}
+.process-loan{
+    background-color: azure;
+}
+.apply-circle {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    top: -7px;
+    position: relative;
+    left: 83px;
+}
+.apply-circle h5 {
+    text-align: center;
+    color: red;
+    opacity: 0.1;
+    font-size: 86px;
+}
+.apply-circle-text h1 {
+    font-size: 21px;
+    position: relative;
+    top: -76px;
+    left: 1px;
+}
+.apply-circle-content h3{
+    font-size: 1.55rem;
+}
+.work-shape {
+    position: relative;
+    top: -148px;
+    left: 228px;
+}
+.work-shape2 {
+    position: relative;
+    top: -148px;
+    left: 228px;
+}
+.apply-loan span{
+    font-size: 35px;
+}
+.faruk-loan{
+    position: relative;
+}
+.faruk-loan::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    background-color: red;
+    height:calc(100% - 100px);
+    left: 13px;
+}
+.faruk-loan li {
+    position: relative;
+    left: 20px;
+}
+.faruk-loan li::before {
+    position: absolute;
+    content:attr(data-counter);
+    width: 33px;
+    height: 100%;
+    top: 0px;
+    left: -55px;
+    border-radius: 50%;
+    border: 1px solid red;
+    background-color: white;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+}
+.abeg ul{
+    list-style: none;
+}
+.abeg ul li{
+    position: relative;
+}
+.abeg ul li::before {
+    content: "";
+    position: absolute;
+    left: -18px;
+    top: 7px;
+    width: 7px;
+    height: 41%;
+    background-color: red;
+    list-style: none;
+    border-radius: 50%;
+}
