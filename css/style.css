@@ -94,7 +94,7 @@ ul.primary-menu li ul li a{
 }
 /* slide/banner css */
 .slider-section{
-    background: url(img/it_sevice_MG_4781.jpg) no-repeat top center;
+    background: url(./img/it_sevice_MG_4781.jpg) no-repeat top center;
     background-size:cover;
     background-attachment: fixed;
 }
